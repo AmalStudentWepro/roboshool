@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.promo{
+    background-color: #141024;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu a {
+    color: white;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.phone {
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+
+.promo_box {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+
+.promo_text {
+    width: 516px;
+    padding-bottom: 10px;
+}
+
+.promo_text h1 {
+    font-family: Jost;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 112px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.promo_text p {
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+
+.promo_text button {
+    background-color: #D52027;
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+    border: none;
+}
+
+.promo_box img {
+    width: 530px;
+}
+
+.about{
+    padding: 120 0 105;
+}
+
+.about_text {
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    margin: 100px 0 60px;
+
+    max-width: 891px;
+}
+
+.about_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.about_item h2 {
+    font-family: Jost;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 112px;
+    text-align: left;
+    color: #D52027;
+}
+
+.about_item p {
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #141024B2;
+
+}
+
+.teachers {
+    padding-bottom: 130px;
+}
+
+.teachers h2 {
+    font-family: Jost;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: left;    
+    margin: 100px 0 60px;
+}
+
+.teachers h3 {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38.4px;
+    text-align: left;
+
+}
+
+.teachers p {
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #141024B2;
+}
+
+.teachers a {
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #D52027;
+    text-decoration: none;
+}
+
+.teachers_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    background-color: #141024;
+}
